@@ -10,8 +10,8 @@ const images = {};
 const imageSources = {
     bg: 'bg.png',
     bird0: 'bird_0.png',
-    bird1: 'assets/img/bird_1.png',
-    bird2: 'assets/img/bird_2.png',
+    bird1: 'bird_1.png',
+    bird2: 'bird_2.png',
     aln: 'aln.png',
     pipe: 'pipe_green.png',
     land: 'land_0.png'
@@ -19,13 +19,7 @@ const imageSources = {
 
 // Load sounds
 const sounds = {
-    die: new Audio('assets/audio/sfx_die.wav'),
-    hit: new Audio('assets/audio/sfx_hit.wav'),
-    point: new Audio('assets/audio/sfx_point.wav'),
-    swoosh: new Audio('assets/audio/sfx_swooshing.wav'),
-    wing: new Audio('assets/audio/sfx_wing.wav'),
-    alena: new Audio('alena.mp3'),
-    final: new Audio('smthgfinal.wav')
+    alena: new Audio('alena.mp3')
 };
 
 const soundTimeouts = {};
