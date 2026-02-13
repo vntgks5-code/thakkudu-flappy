@@ -8,13 +8,13 @@ const scoreDiv = document.getElementById('score');
 // Load images
 const images = {};
 const imageSources = {
-    bg: 'assets/img/bg.png',
-    bird0: 'assets/img/bird_0.png',
+    bg: 'bg.png',
+    bird0: 'bird_0.png',
     bird1: 'assets/img/bird_1.png',
     bird2: 'assets/img/bird_2.png',
     aln: 'aln.png',
-    pipe: 'assets/img/pipe_green.png',
-    land: 'assets/img/land_0.png'
+    pipe: 'pipe_green.png',
+    land: 'land_0.png'
 };
 
 // Load sounds
