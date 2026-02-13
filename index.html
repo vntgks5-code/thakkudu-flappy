@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird - Felgo Web Fallback</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #222;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            border: 2px solid #000;
+            background-color: #70c5ce;
+            image-rendering: pixelated;
+        }
+        #ui {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            pointer-events: none;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div id="ui">
+        <img id="getReady" src="assets/img/getReady.png" class="hidden">
+        <img id="gameOver" src="assets/img/gameOver.png" class="hidden">
+        <div id="score" style="color: white; font-size: 48px; text-shadow: 2px 2px #000; margin-top: 20px;" class="hidden">0</div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
